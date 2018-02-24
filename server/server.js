@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(fileUpload());
 
 require('./routes/upload.route')(router);
-app.use('/upload',router);
+app.use('/api',router);
 app.get('/', function(req, res) {
     res.send("Please use /upload");   
 });
