@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "tesseract.js": "^1.0.10"
   }
 }
