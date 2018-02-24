@@ -9,10 +9,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(fileUpload());
 
+// Route for images interaction
 require('./routes/upload.route')(router);
+// Route for txt interaction
+require('./routes/text.route')(router);
+
 app.use('/api',router);
-app.get('/', function(req, res) {
-    
+app.get('/', function(req, res) {    
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
