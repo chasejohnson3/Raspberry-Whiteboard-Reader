@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url("./css/skeleton.css");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+.header {
+  text-align: center;
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content{
+  padding: 20px;
+  
+  text-align: left;
+}
+
+img{
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
