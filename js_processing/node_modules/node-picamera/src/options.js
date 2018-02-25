@@ -1,0 +1,23 @@
+module.exports = {
+  width:'-w',
+  height:'-h',
+  vertical_flip:'-vf',
+  horizontal_flip:'-hf',
+  sharpness: '-sh',
+  brightness: '-br',
+  saturation: '-sa',
+  iso:'-ISO',
+  video_stabilization:'-vs',
+  ev_compensation: '-ev',
+  exposure:'-ex',
+  auto_white_balance:'-awb',
+  image_effect:'-ifx',
+  color_effect:'-cfx',
+  metering: '-mm',
+  rotation: '-rot',
+  region_of_interest:'-roi',
+  raw:'-r',
+  verbose: '-v',
+  encoding:'-e',
+  quality:'-q'
+};
